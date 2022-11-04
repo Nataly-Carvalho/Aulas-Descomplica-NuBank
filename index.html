@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Viagem dos sonhos</title>
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="#"> Pacotes</a></li>
+                <li><a href="#">Taxas</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Venhar realizar a vigem dos seus sonhos</h1>
+    </header>
+    <section id="pacotes">
+        <h2>Conheça nossos pacotes</h2>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, inventore adipisci, tempora nemo debitis
+            facere
+            voluptatibus explicabo nam, tenetur quam ipsum eius molestias aut voluptatum officiis quo provident fuga.
+            Quos
+            doloremque voluptas officia, perspiciatis voluptatum ea explicabo reiciendis consequatur. Sed, voluptatibus.
+            Nam
+            aliquid delectus unde, cum autem suscipit repellendus perspiciatis quasi ipsum, modi earum officiis soluta
+            eum
+            tempora dicta alias aliquam, molestiae consectetur in dolore. Incidunt totam, asperiores sed dolor aliquid,
+            facilis praesentium perspiciatis et corporis natus, aspernatur nobis laborum. Nulla soluta earum ipsum
+            distinctio nemo molestias aliquid suscipit possimus exercitationem iusto eligendi, inventore labore quas
+            fuga
+            esse repudiandae! Ullam architecto vitae atque, laborum explicabo dignissimos tenetur labore? Labore
+            consectetur, optio delectus saepe enim quaerat eum fugiat cum reprehenderit hic reiciendis officiis
+            deleniti,
+            tempore dolorum laudantium. Vero eaque deleniti explicabo vitae, excepturi, reprehenderit inventore, velit
+            voluptatem qui libero molestias ad odio maiores sunt molestiae quaerat! Nam assumenda facilis soluta ad qui
+            unde, nihil vitae autem voluptas eum totam neque nesciunt voluptates amet mollitia beatae dolorum
+            exercitationem
+            necessitatibus nisi cumque. Beatae illo vero atque.
+            <a href="https://github.com/Nataly-Carvalho/Atividade-Crud-Java">link</a>
+            <hr>
+        </p>
+        <div class="figuras">
+            <figure>
+                <img src="Imagens/gramado-rio-grande-do-sul-1604593836536_v2_450x450.jpg" alt="foto de gramados">
+                <figcaption>Gramados</figcaption>
+            </figure>
+            <figure>
+                <img src="Imagens/download.jpeg" alt="foto de porto seguro">
+                <figcaption>porto seguro</figcaption>
+            </figure>
+            <figure>
+                <img src="Imagens/bico-do-papagaio-450x450.jpg" alt="foto de rio de janeiro">
+                <figcaption>Rio de janeiro</figcaption>
+            </figure>
+        </div>
+        <div class="videos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DvdHlRrsBoo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+
+    </section>
+    <section>
+        <h2>Orçamento</h2>
+        <section>
+            <h2>Taxas e Serviços</h2>
+            <p>Veja nossas taxas para serviços</p>
+            <table>
+                <caption>Descrição dos serviços e respectivos valores</caption>
+                <thead>
+                    <tr>
+                        <th>
+                            Serviço
+                            </td>
+                        <th>
+                            Valor
+                            </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Reserva de hotel
+                        </td>
+                        <td>
+                            R$500,00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Compra de passagem
+                        </td>
+                        <td>
+                            R$100,00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Aluguel de carro
+                        </td>
+                        <td>
+                            R$50,00
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+        <section>
+            <h2>Contato</h2>
+            <form method="GET" action="">
+                <fieldset>
+                    <legend>Dados da vigem</legend>
+                    <label>Nome</label><br>
+                    <input type="text" name="nome"><br><br>
+
+                    <label>Email</label><br>
+                    <input type="email" required name="email"><br><br>
+
+                    <label>Data de ida</label><br>
+                    <input type="date" name="dataIda"><br><br>
+
+                    <label>Data de Volta</label><br>
+                    <input type="date" name="dataVolta"><br><br>
+
+                    <label>Quantidade de pessoas</label><br>
+                    <input type="number" name="qtdPessoas"><br><br>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Quais serviços deseja contratar?</legend>
+                    <label>
+                        <br> <input type="checkbox" name="passagens" value="Passagens">Compra de passagem
+                    </label>
+                    <label>
+                        <br> <input type="checkbox" name="hospedagens" value="Hospedagens">Reserva de hospedagem
+                    </label>
+                    <label>
+                        <br> <input type="checkbox" name="veiculos" value="Veiculos">Reserva de veiculos
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Escolha sua forma de pagamento</legend>
+                    <label>
+                        <br><input type="radio" name="formaPagamento" value="Cartao de credito">Cartão de credito
+                    </label>
+                    <label>
+                        <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+                    </label>
+                    <label>
+                        <br><input type="radio" name="formaPagamento" value="Pix">Pix
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Escolha o prazo para pagamento</legend>
+                    <select name="prazoPagamento">
+                        <option value="avista">A Vista</option>
+                        <option value="5x">5x sem juros</option>
+                        <option value="10x">10x com juros</option>
+                    </select>
+                </fieldset>
+
+                <label>Comentario</label><br>
+                <textarea rows="5" name="comentario"></textarea><br><br>
+                <button>Salvar</button>
+
+            </form>
+        </section>
+
+        <footer>
+            <p>Desenvolvido por Nataly Carvalho</p></footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap
+</body>
+
+</html>
